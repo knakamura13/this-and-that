@@ -1,0 +1,14 @@
+[
+    {
+        "id": 0,
+        "name": "My first grocery list"
+    },
+    {
+        "id": 1,
+        "name": "Safeway groceries"
+    },
+    {
+        "id": 2,
+        "name": "Whole Foods groceries"
+    }
+]

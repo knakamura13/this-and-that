@@ -5,9 +5,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    let groceryLists = loadGroceryLists()
+    
     var body: some View {
-        Text("Hello, World!")
-            .font(.title)
+        List(groceryLists) { list in
+            GroceryListRow(groceryList: list)
+        }
     }
 }
 
