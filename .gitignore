@@ -23,4 +23,6 @@ Pods/
 ##############
 # User Files #
 ##############
+
 .env
+.DS_Store
